@@ -10,8 +10,8 @@ describe("Teacher class", () => {
   let teacher2;
 
   beforeEach(() => {
-    teacher1 = new Teacher("susan", "jones", "biology", 5);
-    teacher2 = new Teacher("bobby", "roberts", "math", 15);
+    teacher1 = new Teacher("susan", "jones", 31, "biology", 5);
+    teacher2 = new Teacher("bobby", "roberts", 43, "math", 15);
   });
 
   describe("Teacher constructor", () => {
